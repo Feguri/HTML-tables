@@ -32,6 +32,8 @@ table {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
 
 }
 
@@ -40,7 +42,7 @@ thead, th, tbody{
 }
 
 p, code {
-    font-size: large;
+    font-size: 21px;
 }
 
 code {
@@ -69,12 +71,20 @@ h6{
     font-size: large;
     text-align: center;
 }
+
+h3{
+    font-size: 24px;
+}
 footer p {
     text-align: center;
 }
 
 .padding-left {
     padding-left: 10%;
+}
+
+.margin-left {
+    margin-left: 10%;
 }
 
 .center-txt {
@@ -100,4 +110,45 @@ footer p {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
+}
+
+.section-2-container{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.example-code {
+   position: relative;
+   background-color: rgb(50 56 87);
+   width: 100%;
+   border-left: 4px solid white;
+   padding: 5px;
+   padding-left: 30px;
+}
+
+div.example-code p {
+    font-family: monospace;
+}
+.code-container {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 180px;
+    padding-left: 40px;
+    width: 70%;
+}
+
+.padding-left1 {
+    padding-left: 5%;
+}
+
+.padding-left2 {
+    padding-left: 10%;
+}
+
+.padding-left3 {
+    padding-left: 15%;
+}
+
+.padding-left4 {
+    padding-left: 20%;
 }
