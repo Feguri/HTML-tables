@@ -1,12 +1,12 @@
 body {
     background-color: #1d2236;
 }
-h1, hr, h2, h3, h4, h5, h6, p {
+h1, hr, h2, h3, h4, h5, h6, p, table{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #add8ff;
 }
 main {
-    width: 80%;
+    padding-left: 10%;
 }
 h1 {
     font-size: 40px;
@@ -17,6 +17,24 @@ h2 {
 hr {
     width: 80%;
 }
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+thead th {
+    width: 25%;
+}
+th {
+    border-left-width: 4px;
+    border-bottom-width: 4px;
+}
 .center-txt {
     text-align: center;
+}
+.longer-row {
+
 }
