@@ -2,11 +2,11 @@ body {
     background-color: #1d2236;
 }
 
-h1, hr, h2, h3, h4, h5, h6, p, table, th, td, a, h6 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+h1, hr, h2, h3, h4, h5, h6, p, table, th, td, a, h6, ul, li{
+    font-family: sans-serif;
     color: #add8ff;
-    letter-spacing: 0.7px;
-    line-height: 30px;
+    letter-spacing: 0.8px;
+    line-height: 35px;
 }
 
 h1 {
@@ -77,6 +77,30 @@ h3{
 }
 footer p {
     text-align: center;
+}
+
+img {
+    position: relative;
+    height: 500px;
+    width: 700px;
+
+}
+figcaption{
+    opacity: 70%;
+}
+
+article p{
+    text-indent: 5%;
+    text-align: justify;
+    color: white;
+}
+
+article ul li {
+    color: white;
+    font-size: large;
+}
+ul {
+    padding-left: 15%;
 }
 
 .padding-left {
@@ -152,4 +176,9 @@ div.example-code p {
 
 .padding-left4 {
     padding-left: 20%;
+}
+
+#bg-div {
+    border-radius: 15px;
+    width: 40%;
 }
